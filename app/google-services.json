@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "574733401133",
+    "project_id": "khoj-fe071",
+    "storage_bucket": "khoj-fe071.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574733401133:android:b8b4f0e40a6b64ac218ca4",
+        "android_client_info": {
+          "package_name": "com.example.khoj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "574733401133-c80b1pf77af1q4pvsspfqvui0e51iddb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNmYVKJvKfEJef2acd_OHg91jUSq5S_mI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "574733401133-c80b1pf77af1q4pvsspfqvui0e51iddb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

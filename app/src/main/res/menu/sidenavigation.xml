@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+
+
+    <item android:id="@+id/favourites"
+
+        android:icon="@drawable/ic_baseline_favourites"
+        android:title="@string/favourites"/>
+
+    <item android:id="@+id/logout"
+
+        android:icon="@drawable/ic_baseline_logout"
+        android:title="@string/logout"/>
+    <item
+        android:checked="true"
+        android:id="@+id/menu_none"
+        android:title="gf"
+        android:visible="false"/>
+
+</group>
+</menu>

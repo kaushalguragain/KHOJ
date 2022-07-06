@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="appBar">#37393A</color>
+    <color name="dashboard">#333241</color>
+    <color name="button">#312F33</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="filler">#403D3D</color>
+    <color name="menucolor">#E8EEF2</color>
+    <color name="green">#31F405</color>
+    <color name="purple">#A603FF</color>
+    <color name= "red">#AAE40833</color>
+    <color name= "yellow">#AAFFE600</color>
+
+</resources>

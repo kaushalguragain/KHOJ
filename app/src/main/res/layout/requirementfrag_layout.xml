@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/button">
+
+
+        <Spinner
+            android:id="@+id/select_type"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="85dp"
+            android:layout_marginEnd="27dp"
+            android:layout_marginBottom="15dp" />
+
+        <EditText
+            android:id="@+id/enterminprice"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/select_type"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="30dp"
+            android:padding="10dp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/textborder"
+            android:layout_marginEnd="27dp"
+            android:ems="10"
+            android:focusableInTouchMode="true"
+            android:autoSizeTextType="uniform"
+            android:hint="Enter Minimum Price Limit For Search"
+            android:focusable="true"
+            android:textColorHint="@drawable/selector"
+            android:inputType="number"
+            android:textSize="10sp" />
+        <EditText
+            android:id="@+id/entermaxprice"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/enterminprice"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="30dp"
+            android:padding="10dp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/textborder"
+            android:layout_marginEnd="27dp"
+            android:ems="10"
+
+            android:focusableInTouchMode="true"
+            android:autoSizeTextType="uniform"
+            android:hint="Enter Maximum Price Limit For Search"
+            android:focusable="true"
+            android:textColorHint="@drawable/selector"
+            android:inputType="number"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/search_requirements"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/enterminprice"
+            android:padding="10dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="56dp"
+            android:background="@drawable/buttonborder"
+            android:text="@string/requiremnets"
+            android:textColor="@color/colorWhite" />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

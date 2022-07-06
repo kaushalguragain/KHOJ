@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/dashboard">
+    <TextView
+        android:background="@color/appBar"
+        android:id="@+id/titledetails"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:hint="Enter Title"
+        android:textColorHint="@color/colorWhite"
+        android:gravity="center"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/montserratmedium"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:inputType="text"
+
+        android:padding="4dp"
+        />
+
+
+    <TextView
+        android:id="@+id/descriptiontext"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:padding="5dp"
+        android:textSize="14sp"
+        android:background="@color/appBar"
+        android:textColor="@color/colorWhite"
+        android:hint="Enter long Description"
+        android:textColorHint="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titledetails" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

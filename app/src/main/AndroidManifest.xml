@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.khoj">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/appico"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/appico_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Fragments.Landmarks.SiteViewDescription"></activity>
+        <activity android:name=".Fragments.Hospital.SpecializationDescription" />
+        <activity android:name=".Fragments.Landmarks.UploadDataLandmarks" />
+        <activity android:name=".Fragments.Hospital.UploadDataHospital" />
+        <activity android:name=".Services.FetchLocation" />
+        <activity android:name=".Services.ImageUploader" />
+        <activity android:name=".Authentication.SignUpActivity" />
+        <activity android:name=".Fragments.Hotel.UploadDataHotel" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".Authentication.SignInActivity"
+            android:theme="@style/AppTheme.Base.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+</manifest>

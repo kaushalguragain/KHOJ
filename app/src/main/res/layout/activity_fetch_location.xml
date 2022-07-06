@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+    <TextView
+        android:id="@+id/notificationsetting"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Please Choose A Location Below"
+        android:background="@drawable/textborder"
+        android:textColor="@color/colorWhite"
+        android:padding="10dp"
+        android:textAlignment="center"
+        mapbox:layout_constraintTop_toTopOf="parent"
+        mapbox:layout_constraintStart_toStartOf="parent"
+        mapbox:layout_constraintEnd_toEndOf="parent"
+        />
+    <com.mapbox.mapboxsdk.maps.MapView
+
+        android:id="@+id/mapView"
+        android:background="@color/button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        mapbox:mapbox_cameraZoom="15"
+        mapbox:layout_constraintTop_toBottomOf="@id/notificationsetting"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="55dp"
+        mapbox:layout_constraintStart_toStartOf="parent"
+        mapbox:layout_constraintEnd_toEndOf="parent"
+        />
+
+
+    <Button
+        android:id="@+id/selectLocation"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Select Location"
+        android:background="@drawable/buttonborder"
+        android:textColor="@color/colorWhite"
+        android:textAlignment="center"
+        android:padding="10dp"
+        mapbox:layout_constraintStart_toStartOf="parent"
+        mapbox:layout_constraintEnd_toEndOf="parent"
+        mapbox:layout_constraintTop_toBottomOf="@id/mapView"
+        />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
